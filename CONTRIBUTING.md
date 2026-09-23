@@ -12,10 +12,12 @@ Every organization member can read repositories. The software team can change th
 
 Work in the private `grizzly` repository.
 
-1. Branch from `main`.
-2. Open a pull request into `main`.
+1. Branch from `develop`.
+2. Open a pull request into `develop`.
 3. Request review from the software team.
 4. Squash-merge after approval.
+
+`develop` is the integration branch. `main` is the release the rover installs. Promote `develop` to `main` with a pull request when that software should go on the robot.
 
 Do not push new feature work to `grizzly-mvp-26` or `grizzly-25-26`.
 
