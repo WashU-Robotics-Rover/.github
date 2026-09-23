@@ -7,13 +7,13 @@ Student team at Washington University in St. Louis competing in the University R
 ## Teams
 
 - **leadership** — rover captain and subteam leads. Maintain access on team repositories.
-- **software** — onboard software, ROS 2, autonomy, and teleoperation.
+- **software** — onboard software, ROS 2, autonomy, and teleoperation. Write access on the software repositories.
 - **electrical** — power, communications, and embedded electronics.
 - **mechanical** — chassis, suspension, arm, and fabrication.
 - **science** — University Rover Challenge science mission.
-- **all-devs** — every rover member. Baseline read and issue-triage access.
+- **all-devs** — every rover member.
 
-Subteams sit under `all-devs`, so subteam members keep that baseline access. Software has write access on the rover software repositories. Organization owners create repositories and teams.
+Every organization member can read team repositories. Write access on the current software repositories belongs to the software team. Organization owners create repositories and teams. Subteam leads are added to leadership by the rover captain.
 
 ## Repositories
 
