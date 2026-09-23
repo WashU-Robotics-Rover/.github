@@ -6,6 +6,8 @@ WashU Robotics Rover uses GitHub teams for access.
 - Join `software`, `electrical`, `mechanical`, or `science` for your subteam.
 - Subteam leads are added to `leadership` by the rover captain.
 
+Every organization member can read repositories. The software team can change the software repositories. Leadership maintains them.
+
 ## Software changes
 
 Work in the private `grizzly` repository.
