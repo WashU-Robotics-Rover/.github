@@ -1,0 +1,28 @@
+name: Task
+description: Work for a subteam to pick up.
+title: "[task] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: subteam
+    attributes:
+      label: Subteam
+      options:
+        - software
+        - electrical
+        - mechanical
+        - science
+        - leadership
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this is done?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
